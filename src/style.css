@@ -6,23 +6,12 @@
 body{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  background: rgb(211, 174, 174);
+  background: #3d3d69;
 }
-.formulario{ 
-/* margin-bottom: 68px; */   
-background: linear-gradient(to right, #b92b27, #1565C0);
-width: 45%;
-height: 250px;
-margin-left: 400px;
-border-radius: 10px;
--webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
-margin-top: 25px;
-}
+.formulario{/* margin-bottom: 68px; */background: linear-gradient(to right, #0f0c29, #000000, #24243e);width: 45%;height: 250px;margin-left: 400px;border-radius: 10px;-webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);-moz-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);margin-top: 50px;}
 
 .num-tarjeta{
-  background: silver;
+  background: rgb(154, 148, 240);
   border: 1px solid #393939;
   border-radius: 5px 5px 5px 5px;
   color: #393939;
@@ -30,6 +19,9 @@ margin-top: 25px;
   padding: 5px;
   width: 238px;
   height: 44px;
+  margin-top: 100px;
+  margin-left: 22.5%;
+  /* text-align: center; */
 }
 .btn-validar{
   display: inline-block;
@@ -42,6 +34,14 @@ margin-top: 25px;
   color: black;
 }
 .btn-validar:hover{
-  background: chartreuse;
+  background: #572cbb;
   color:#fff;  
+}
+.like{
+  margin-left: 250px;
+  margin-top: 15px;
+}
+.unlike{
+  margin-left: 250px;
+  margin-top: 15px;
 }
