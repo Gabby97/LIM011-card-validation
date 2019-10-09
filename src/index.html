@@ -7,7 +7,18 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <form id="formulario" class ="formulario">
+        <!-- <img src="/img/like.png" alt="like">
+        <img src="/img/unlike.png" alt="unlike"> -->
+        <input type="number" id="num-tarjeta" name="numero" class="num-tarjeta" value="" onkeydown="if(this.value.length == 16)return false;" required placeholder="Introdusca el numero de tarjeta:">
+        <button type="submit" id="btn-submit" class="btn-validar">Validar</button>
+        <div >
+          <code id="respuesta"></code>
+        </div>
+      </form>
+      <div id="numVista"></div>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
