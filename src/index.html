@@ -4,11 +4,22 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
   </head>
   <body>
     <header></header>
     <main>
+      <h1 class="h1">Check Digit</h1>
+      <br>
+      <p class ="parrafo2">Aplicación Online para Verificar la Validez de una Tarjeta de Crédito<img src="/img/credit-card.png" alt="creditCard"></p>
+      <p class="parrafo2"> Inserta un Número de Tarjeta de Crédito en el formulario, si es válido mostrara manita arriba <img src="/img/like1.png" alt="like1"></p>
+        <p class="parrafo2">y si no es válido mostrara manita abajo. <img src="/img/unlike1.png" alt="unlike1"></p>
+        <br><br>
       <form id="formulario" class ="formulario">
+        <br>
+        <br>
+        <p class ="parrafo-fromulario">Validemos el número de tarjeta otorgado...</p>
         <!-- <img src="/img/like.png" alt="like">
         <img src="/img/unlike.png" alt="unlike"> -->
         <input type="number" id="num-tarjeta" name="numero" class="num-tarjeta" value="" onkeydown="if(this.value.length == 16)return false;" required placeholder="Introdusca el N° de tarjeta:">
@@ -17,9 +28,14 @@
           <code id="respuesta"></code>
         </div>
       </form>
-      <div id="numVista"></div>
+      <!-- <p class ="parrafo2">Aplicación Online para Verificar la Validez de una Tarjeta de Crédito<img src="/img/credit-card.png" alt="creditCard"></p>
+      <p class="parrafo2"> Inserta un Número de Tarjeta de Crédito en el formulario, si es válido mostrara manita arriba <img src="/img/like1.png" alt="like1"> y si no 
+        es válido mostrara manita abajo. <img src="/img/unlike1.png" alt="unlike1"></p> -->
+      <br>
     </main>
-    <footer></footer>
+    <footer id = "footer" class="footer">
+      <p class="pfooter">Creado por Gabby Acevedo - <a href="">contactanos checkdigit@gmail.com</a></p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
