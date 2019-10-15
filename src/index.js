@@ -3,7 +3,7 @@ import {isValid} from "./validator.js";
 // console.log(validator);
 
 // console.log(lunh('6011724110669057'))
-const $formulario = document.getElementById("form-control");
+const $formulario = document.getElementById("formulario");
 const $tarjeta = document.getElementById("num-tarjeta");
 const $respuesta = document.getElementById("respuesta");
 

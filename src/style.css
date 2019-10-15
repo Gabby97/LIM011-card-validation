@@ -81,23 +81,27 @@ a {
   color:#fff;  
 }
 .like{
-  margin-left: 250px;
-  margin-top: 15px;
+  margin-left: 182px;
+  margin-top: 22px;
 }
 .unlike{
-  margin-left: 15px;
-  margin-top: 10px;
+  margin-left: 182px;
+  margin-top: 22px;
 }
-@media only screen and (min-width: 320px) and (max-width: 568px){
+@media only screen and (min-width: 300px) and (max-width: 568px){
 .num-tarjeta{
-  
   height: 37px;
   width: 140px;
 }
 .btn-validar{
-  
   height:40px ;
   width:53px ;
+}
+.like{
+  margin-left: 73px;
+}
+.unlike{
+  margin-left: 73px;
 }
 }
 /* *{
