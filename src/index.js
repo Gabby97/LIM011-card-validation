@@ -7,14 +7,14 @@ const $formulario = document.getElementById("formulario");
 const $tarjeta = document.getElementById("num-tarjeta");
 const $respuesta = document.getElementById("respuesta");
 
-$tarjeta.addEventListener("keyup", (e) => {
-  let val = e.target.value
-  // console.log(e.key)
-  if (val.length === 4 || val.length === 9 || val.length === 14 || val.length === 19 ) {
-    val = val + ' '
-    e.target.value = val;
-  }
-});
+// $tarjeta.addEventListener("keyup", (e) => {
+//   let val = e.target.value
+//   // console.log(e.key)
+//   if (val.length === 4 || val.length === 9 || val.length === 14 || val.length === 19 ) {
+//     val = val + ' '
+//     e.target.value = val;
+//   }
+// });
 // let numeros = [];
 $formulario.addEventListener("submit", e => {
   e.preventDefault();

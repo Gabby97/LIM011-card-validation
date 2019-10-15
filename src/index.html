@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/img/credit-card.png">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-    <title>Tarjeta de crédito válida</title>
+    <title>Check Digit</title>
 </head>
 <body>
   <div class="frame">
@@ -23,7 +24,7 @@
       <form id = "formulario" class = "formulario">
           <p class = "parrafo-formulario">Validemos el número de tarjeta otorgado...</p>
           <div id = "form-control" class="form-control">
-              <input type="text" id="num-tarjeta" name="numero" class="num-tarjeta" value="" onkeydown="if(this.value.length == 20)return false;"< required placeholder="Introdusca el N° de tarjeta:">
+              <input type="number" id="num-tarjeta" name="numero" class="num-tarjeta" value="" onkeydown="if(this.value.length == 20)return false;"< required placeholder="Introdusca el N° de tarjeta:">
               <button type="submit" id="btn-submit" class="btn-validar">Validar</button>
                <!-- <img src="/img/like.png" alt="like"> -->
         <!-- <img src="/img/unlike.png" alt="unlike"> --> 

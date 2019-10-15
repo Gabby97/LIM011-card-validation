@@ -37,6 +37,8 @@ a {
 .parrafo2{
   font-family: 'PT Serif', serif;
   text-align: center;
+  margin: 5%;
+  font-size: 18px;
 }
 .formulario{
   width: 50%;
@@ -92,6 +94,7 @@ a {
 .num-tarjeta{
   height: 37px;
   width: 140px;
+  font-size: 12px;
 }
 .btn-validar{
   height:40px ;
@@ -102,6 +105,9 @@ a {
 }
 .unlike{
   margin-left: 73px;
+}
+.parrafo2{
+  font-size: 15px;
 }
 }
 /* *{
