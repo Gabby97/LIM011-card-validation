@@ -78,6 +78,10 @@ En este feedback el susario indica adicionar un texto descriptivo dentro del for
 
 * Prototio de alta fidelidad:
 
+![vista general](img/uno.PNG)
+![tarjeta válida](img/dos.PNG)
+![tarjeta no válida](img/tres.PNG)
+
 5. User Testing
 
 
