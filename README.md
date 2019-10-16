@@ -91,4 +91,44 @@ https://marvelapp.com/d026e6a
 
 Para ésta fase del proceso de Desarrollo del diseño, se realizaron pruebas de usabilidad a usuarios finales. A los cuales se les asignó una "Lista de tareas" que debían llevar a cabo en la interfaz de la web, sin que se le diera mayores indicaciones de uso. Además se les realizó una lista de preguntas con la finalidad de obtener feedback y asegurarnos que nuestra interfaz cumplía con las reglas de usabilidad necesarias según nuestro tipo de usuario.
 
+## Objetivos de aprendizaje Cipher
+​
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a *entender* y *aplicar* en tu proyecto.
+​
+### UX
+​
+- [x] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [x] Uso de selectores del DOM.
+- [x] Manejo de eventos del DOM.
+- [x] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).	
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Declaración correcta de variables (const & let).
+​
+### Testing
+- [ ] Testeo de tus funciones.
+​
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
