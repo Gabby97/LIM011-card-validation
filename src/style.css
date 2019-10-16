@@ -26,6 +26,7 @@ html, body {
 }
 .title{
   font-size: 3rem;
+  margin-top: inherit;
 }
 a {
   color: rgb(53, 223, 209);
@@ -33,16 +34,18 @@ a {
 .parrafo-formulario{
   text-align: center;
   color: #fff;
+  font-size: 18px;
 }
 .parrafo2{
   font-family: 'PT Serif', serif;
   text-align: center;
   margin: 5%;
   font-size: 18px;
+  margin-top: -16px;
 }
 .formulario{
   width: 50%;
-  height: 237px;
+  height: 210px;
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   border-radius: 10px;
   -webkit-box-shadow: 14px 14px 29px -6px rgba(0,0,0,0.75);
@@ -84,13 +87,16 @@ a {
 }
 .like{
   margin-left: 182px;
-  margin-top: 22px;
+  margin-top: 9px;
 }
 .unlike{
   margin-left: 182px;
-  margin-top: 22px;
+  margin-top: 9px;
 }
-@media only screen and (min-width: 300px) and (max-width: 568px){
+@media only screen and (min-width: 300px) and (max-width: 680px){
+  .formulario {
+    height: 182px;
+  }
 .num-tarjeta{
   height: 37px;
   width: 140px;
@@ -109,6 +115,19 @@ a {
 .parrafo2{
   font-size: 15px;
 }
+.parrafo-formulario{
+  font-size: 15px;
+}
+.footer{
+  font-size: 12px;
+}
+}
+@media only screen and (min-width: 1200px){
+  .like{
+    margin-left: 225px;
+  }
+  .unlike{
+    margin-left: 225px;
 }
 /* *{
   padding: 0;
