@@ -22,9 +22,9 @@ $formulario.addEventListener("submit", e => {
 
   const resultadoValidacion = isValid(validTarjeta);
 
-  let rutaImagen = '<img src="/img/like.png" alt="Valido" class ="like">';
+  let rutaImagen = '<img src="../img/like.png" alt="Valido" class ="like">';
   if (!resultadoValidacion) {
-    rutaImagen = '<img src="/img/unlike.png" alt="No válido" class="unlike">';
+    rutaImagen = '<img src="../img/unlike.png" alt="No válido" class="unlike">';
   }
 
   $respuesta.innerHTML = rutaImagen;

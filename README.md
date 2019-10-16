@@ -79,10 +79,16 @@ En este feedback el susario indica adicionar un texto descriptivo dentro del for
 * Prototio de alta fidelidad:
 
 ![vista general](img/uno.PNG)
-![tarjeta válida](img/dos.PNG)
+![número no válida](img/noValido.PNG)
 ![tarjeta no válida](img/tres.PNG)
+![número válido](img/valido.PNG)
+![tarjeta válida](img/dos.PNG)
+
+https://marvelapp.com/d026e6a
+
 
 5. User Testing
 
+Para ésta fase del proceso de Desarrollo del diseño, se realizaron pruebas de usabilidad a usuarios finales. A los cuales se les asignó una "Lista de tareas" que debían llevar a cabo en la interfaz de la web, sin que se le diera mayores indicaciones de uso. Además se les realizó una lista de preguntas con la finalidad de obtener feedback y asegurarnos que nuestra interfaz cumplía con las reglas de usabilidad necesarias según nuestro tipo de usuario.
 
 
