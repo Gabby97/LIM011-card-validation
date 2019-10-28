@@ -34,7 +34,7 @@ El objetivo de la aplicación web es permitir a los usuarios validar el número 
 
 
 ![check digit](img/Captura.PNG)
-
+ 
 ## Investigación UX
    1. Descubrimiento e investigación (Research)
 
@@ -99,7 +99,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ​
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ​
 ### HTML y CSS
 ​
@@ -118,17 +118,17 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 - [x] Manipulación de strings.
 - [x] Uso de condicionales (if-else | switch).
 - [x] Uso de bucles (for | do-while).	
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [x] Declaración correcta de variables (const & let).
+- [x] Uso de ES modules (Inport | Export)
 ​
 ### Testing
 - [ ] Testeo de tus funciones.
-​
 ### Git y GitHub
 - [x] Comandos de git (add | commit | pull | status | push).
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 ​
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
